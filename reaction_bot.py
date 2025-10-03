@@ -42,7 +42,6 @@ def main():
     intents = discord.Intents.default()
     intents.messages = True
     intents.guilds = True
-    # intents.message_content = True  # May not be needed
 
     client = ReactionBot(intents=intents)
     client.run(BOT_TOKEN)
